@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Yucca Landing</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <style>
+
+         @import url('https://fonts.googleapis.com/css?family=Faster+One|Gafata|Nixie+One|Poiret+One');
+         body {
+            font-family: 'Poiret One', cursive;
+         }
+
+         .logo {
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            height: 100px;
+            cursor: pointer;
+         }
+
+         .title {
+            position: absolute;
+            top: 115px;
+            left: 50px;
+         }
+
+         .coming_soon {
+            position: relative;
+            text-align: center;
+            /* font-family: 'Faster One', cursive;  */
+            top: 250px;
+            font-size: 60px;
+         }
+
+         .footer {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+         }
+
+         .copyright {
+            font-family: helvetica, san-serif;  
+            font-size: 13px;      
+         }
+
+         .logo {
+             -webkit-animation:spin 4s linear infinite;
+             -moz-animation:spin 4s linear infinite;
+             animation:spin 4s linear infinite;
+         }
+         @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+         @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+         @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+      </style>
+   </head>
+   <body>
+   <img class="logo" src="./yucca_working_logo.png" alt="">
+   <p class="title">Yucca</p>
+
+   <div class="row coming_soon">
+      <div class=" columns small-12 large-8 small-centered large-centered centered">Coming Soon</div>
+   </div>
+      <div class="footer row">
+         <div class="columns centered small-centered small-12">
+             <p class="copyright">&copy; YUCCA 2017</p>
+         </div>
+      </div>
+   </body>
+
+</html>
